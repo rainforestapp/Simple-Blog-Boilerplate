@@ -8,6 +8,11 @@ Middleman supports [project templates](http://middlemanapp.com/getting-started/#
 2. Install Middleman (requires Ruby and Rubygems): ``gem install middleman``
 3. Use the new template argument for the ```middleman init``` command within your projects folder, where 'my_new_project' is the name of your new project folder: ``middleman init my_new_project --template=simple-blog-boilerplate``
 
+## Rainforest styles:
+1. Add the [Rainforest shared styles](https://github.com/rainforestapp/shared-styles) into the stylesheets folder. ``cd source/stylesheets/`` then ``git clone https://github.com/rainforestapp/shared-styles.git``
+2. Import the core shared styles in screen.scss: ``@import "shared-styles/import";``
+3. Import the layout that matters to you, currently only fluid sidebar: ``@import "shared-styles/layouts/_fluid_sidebar";``
+
 ## Usage:
 
 1. Ensure you have Ruby + bundler installed
