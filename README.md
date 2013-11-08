@@ -1,26 +1,4 @@
-A simple blog template using Middleman.
-
-## Why?
-This is for blogs and blog-like sites (ie. documentation). It's intended to have just the right amount of default styling. Most blog boilerplates are either too prescriptive or too unstructured in their layouts. Both extremes make you do unneccessary front-end work to get up and running. This is intended to be a happy medium:
-![Feed](http://f.cl.ly/items/1Q0d0b3u3l1W0L3V1r3v/Screen%20Shot%202013-11-08%20at%2012.36.25.png)
-![Post](http://f.cl.ly/items/13042w2p070r2428403Z/Screen%20Shot%202013-11-08%20at%2013.00.07.png)
-
-Also, Middleman is such a joy to work with I wanted to get more people using it over the poorly supported, poorly maintained and poorly documented Jekyll. 
-
-## What does it come with?
-Structure:
-- Simple blog
-- Pagination
-- XML feed
-- Tags
-- Simple fluid layout with sidebar
-- Minimal styling to be easily customizeable ([screenshot](http://cl.ly/image/460610072B2y))
-
-Defaults:
-- HAML
-- SCSS
-- Compass
-- Susy for grids
+A simple blog template using Middleman. This is the Rainforest edition, with a bunch of specific branding stuff that isn't useful for other users. For the unbranded version, go to [the original repo](https://github.com/fredsterss/Simple-Blog-Boilerplate).
 
 ## Installation:
 
